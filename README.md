@@ -1,10 +1,10 @@
-# 🚀 Integração com API Nuvende
+# Integração com API Nuvende
 
 Projeto desenvolvido para integrar com a **API da Nuvende**, permitindo autenticação, criação de cobranças via Pix e exibição de QR Codes.
 
 ---
 
-## 🧩 Funcionalidades
+## Funcionalidades
 
 - **Autenticação de usuário (Login)**
 - **Criação de cobrança via Pix**
@@ -14,7 +14,7 @@ Projeto desenvolvido para integrar com a **API da Nuvende**, permitindo autentic
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **PHP (Laravel Framework)**
 - **HTTP Client (Guzzle / Http Facade)**
@@ -23,5 +23,15 @@ Projeto desenvolvido para integrar com a **API da Nuvende**, permitindo autentic
 
 ---
 
-## 📁 Estrutura de Pastas
-
+## Estrutura de Pastas
+app/
+├── Http/
+│ ├── Controllers/
+│ │ └── NuvendeController.php
+│ └── Services/
+│ └── NuvendeService.php
+config/
+├── nuvende.php
+tests/
+└── Feature/
+└── NuvendeTest.php
