@@ -24,14 +24,5 @@ Projeto desenvolvido para integrar com a **API da Nuvende**, permitindo autentic
 ---
 
 ## Estrutura de Pastas
-app/
-├── Http/
-│ ├── Controllers/
-│ │ └── NuvendeController.php
-│ └── Services/
-│ └── NuvendeService.php
-config/
-├── nuvende.php
-tests/
-└── Feature/
-└── NuvendeTest.php
+<img width="226" height="229" alt="image" src="https://github.com/user-attachments/assets/ea1ec7d5-0fe2-480a-8c41-6cbe67e670b4" />
+
