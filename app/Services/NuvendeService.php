@@ -17,12 +17,11 @@ class NuvendeService
 
     public function __construct()
     {
-        // Valores HARDCODED para garantir que funcione
-        $this->baseUrl = 'https://api-h.nuvende.com.br';
-        $this->clientId = 'de846a35-d51d-42c6-9ffe-b5a71a0685dd';
-        $this->clientSecret = 'teste2025';
-        $this->pixKey = '59ba4ca7-e1d4-433f-8dbf-77e692434a69';
-        $this->accountId = 'd9c4e578-fd05-4de0-8543-fb32235114a5';
+        $this->baseUrl = config('nuvende.base_url');
+        $this->clientId = config('nuvende.client_id');
+        $this->clientSecret = config('nuvende.client_secret');
+        $this->pixKey = config('nuvende.pix_key');
+        $this->accountId = config('nuvende.account_id');
     }
 
     public function authenticate(): string
